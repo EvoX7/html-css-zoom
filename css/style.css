@@ -20,13 +20,14 @@ header {
 
 .container.header {
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 100%;
 
 }
 
 main {
     background-color: black;
+    width: 100vw;
 }
 
 h1 {
@@ -125,17 +126,36 @@ a {
 
 /* Footer */
 
-.container-footer-dx {
+
+footer {
+    width: 100vw;
+}
+/* Left-footer-container */
+
+.container-main-footer {
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     position: relative;
     width: 100%;
     height: 15vh;
-    padding-top: 20px;
+    padding-top: 30px;
     color: white;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(9, 179, 150);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container-footer-sx {
+    display: flex;
+    position: relative;
+}
+
+.container-footer-center {
+    display: flex;
+    position: relative;
+    
+}
+
+
 
 .icons {
     font-size: 30px;
