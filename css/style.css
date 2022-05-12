@@ -1,257 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 
 /* Header */
 
 header {
-    width: 100vw;
-    background-color: rgb(9, 179, 150);
-    position: fixed;
-    top: 0;
-    z-index: 1;
-
+  width: 100vw;
+  background-color: rgb(9, 179, 150);
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .container.header {
-    position: relative;
-    width: 100vw;
-    height: 100%;
-
+  position: relative;
+  width: 100vw;
+  height: 100%;
 }
 
-
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 main {
-    background-color: black;
-    width: 100vw;
-    padding-top: 50px;
-    padding-bottom: 120px;
-
+  background-color: black;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 120px;
 }
 
 h1 {
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    color: white;
-
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  color: white;
 }
 
 /* Bottoni */
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .header.buttons {
-    position: relative;
+  position: relative;
 }
 
-
 .btn-1 {
-    position: absolute;
-    right: 70px;
-    top: 6px;
-    border-radius: 15px;
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 9px 13px;
-    font-size: 16px;
-    cursor: pointer;
-
+  position: absolute;
+  right: 70px;
+  top: 6px;
+  border-radius: 15px;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 9px 13px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .btn-2 {
-    position: absolute;
-    right: 25px;
-    top: 6px;
-    border-radius: 15px;
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 9px 13px;
-    font-size: 16px;
-    cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 6px;
+  border-radius: 15px;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 9px 13px;
+  font-size: 16px;
+  cursor: pointer;
 }
-
-
 
 /* Main Grid */
 
 .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-    background-color: rgb(0, 0, 0);
-    padding-bottom: 20px;
-    padding-top: 50px;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
 .box {
-    background-image: url('../img/cat1.jpg');
-    width: 250px;
-    height: 150px;
-    margin: 10px 2px;
-    position: relative;
-
-
+  background-image: url("../img/cat1.jpg");
+  width: 250px;
+  height: 150px;
+  margin: 10px 2px;
+  position: relative;
 }
 
 .box:hover {
-    background-image: url('../img/cat2.jpg');
-    width: 250px;
-    height: 150px;
+  background-image: url("../img/cat2.jpg");
+  width: 250px;
+  height: 150px;
 }
-
-
 
 .text-on-box {
-    width: 100px;
-    height: 30px;
-    background-color: rgb(0, 0, 0, .5);
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    line-height: 30px;
-    text-align: center;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 30px;
+  text-align: center;
 }
-
 
 /* Footer */
 
-
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 /* Left-footer-container */
 
 .container-main-footer {
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    width: 100%;
-    height: 13vh;
-    padding-top: 30px;
-    color: white;
-    background-color: rgb(9, 179, 150);
-    font-family: Arial, Helvetica, sans-serif;
-
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  height: 13vh;
+  padding-top: 30px;
+  color: white;
+  background-color: rgb(9, 179, 150);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-footer-sx {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
 }
 
 .container-footer-center {
-    display: flex;
-    position: relative;
-
+  display: flex;
+  position: relative;
 }
 
-
 .icons {
-    font-size: 30px;
-
+  font-size: 30px;
 }
 
 .mic {
-    padding-left: 50px;
-    text-align: center;
+  padding-left: 50px;
+  text-align: center;
 }
 
 .video {
-    position: relative;
-    left: 55px;
-    text-align: center;
+  position: relative;
+  left: 55px;
+  text-align: center;
 }
 
 .arrow1 {
-    position: relative;
-    left: 20px;
-    line-height: 60px;
-    font-size: 13px;
-
+  position: relative;
+  left: 20px;
+  line-height: 60px;
+  font-size: 13px;
 }
 
 .arrow2 {
-    position: relative;
-    left: 60px;
-    bottom: 30px;
-    font-size: 13px;
-
+  position: relative;
+  left: 60px;
+  bottom: 30px;
+  font-size: 13px;
 }
 
 .user1 {
-    padding-left: 50px;
-    text-align: center;
+  padding-left: 50px;
+  text-align: center;
 }
 
 .user2 {
-    position: relative;
-    left: 30px;
-    text-align: center;
+  position: relative;
+  left: 20px;
+  text-align: center;
 }
 
 .poll {
-    position: relative;
-    left: 55px;
-    text-align: center;
+  position: relative;
+  left: 35px;
+  text-align: center;
 }
 
 .share {
-    position: relative;
-    left: 70px;
-    text-align: center;
+  position: relative;
+  left: 50px;
+  text-align: center;
 }
 
 #green-icon {
-    color: rgb(144, 0, 255);
+  color: rgb(144, 0, 255);
 }
 
 #right-arrow {
-    padding-left: 10px;
+  padding-left: 35px;
 }
 
 .chat {
-    position: relative;
-    left: 100px;
-    text-align: center;
+  position: relative;
+  left: 100px;
+  text-align: center;
 }
 
 .record {
-    position: relative;
-    left: 120px;
-    text-align: center;
+  position: relative;
+  left: 120px;
+  text-align: center;
 }
 
 .breakout-rooms {
-    position: relative;
-    left: 140px;
-    text-align: center;
+  position: relative;
+  left: 140px;
+  text-align: center;
 }
 
 .more {
-    position: relative;
-    left: 150px;
-    text-align: center;
+  position: relative;
+  left: 155px;
+  text-align: center;
+}
+
+/* Right-footer container */
+.container-footer-dx {
+  text-align: center;
+  line-height: 70px;
+  width: 130px;
+  height: 70px;
+  margin-right: 60px;
+  background-color: red;
+  border-radius: 25px;
 }
