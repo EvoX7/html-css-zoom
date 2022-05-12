@@ -128,7 +128,7 @@ footer {
 
 .container-main-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   position: relative;
   width: 100%;
   height: 13vh;
@@ -146,6 +146,7 @@ footer {
 .container-footer-center {
   display: flex;
   position: relative;
+  padding-right: 100px;
 }
 
 .icons {
