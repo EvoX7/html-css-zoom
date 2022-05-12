@@ -25,9 +25,17 @@ header {
 
 }
 
+
+body {
+    overflow-x: hidden;
+}
+
 main {
     background-color: black;
     width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 120px;
+
 }
 
 h1 {
@@ -128,20 +136,25 @@ a {
 
 
 footer {
+    position: fixed;
+    bottom: 0;
     width: 100vw;
+
 }
+
 /* Left-footer-container */
 
 .container-main-footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     width: 100%;
-    height: 15vh;
+    height: 13vh;
     padding-top: 30px;
     color: white;
     background-color: rgb(9, 179, 150);
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .container-footer-sx {
@@ -152,9 +165,8 @@ footer {
 .container-footer-center {
     display: flex;
     position: relative;
-    
-}
 
+}
 
 
 .icons {
@@ -174,10 +186,10 @@ footer {
 }
 
 .arrow1 {
-   position: relative;
-   left: 20px;
-   line-height: 60px;
-   font-size: 13px;
+    position: relative;
+    left: 20px;
+    line-height: 60px;
+    font-size: 13px;
 
 }
 
@@ -186,5 +198,60 @@ footer {
     left: 60px;
     bottom: 30px;
     font-size: 13px;
- 
- }
+
+}
+
+.user1 {
+    padding-left: 50px;
+    text-align: center;
+}
+
+.user2 {
+    position: relative;
+    left: 30px;
+    text-align: center;
+}
+
+.poll {
+    position: relative;
+    left: 55px;
+    text-align: center;
+}
+
+.share {
+    position: relative;
+    left: 70px;
+    text-align: center;
+}
+
+#green-icon {
+    color: rgb(144, 0, 255);
+}
+
+#right-arrow {
+    padding-left: 10px;
+}
+
+.chat {
+    position: relative;
+    left: 100px;
+    text-align: center;
+}
+
+.record {
+    position: relative;
+    left: 120px;
+    text-align: center;
+}
+
+.breakout-rooms {
+    position: relative;
+    left: 140px;
+    text-align: center;
+}
+
+.more {
+    position: relative;
+    left: 150px;
+    text-align: center;
+}
